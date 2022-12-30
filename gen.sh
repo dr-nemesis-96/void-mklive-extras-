@@ -7,7 +7,7 @@ SERVICES=''
 
 # Base packages and services required for livecd
 # Source: https://github.com/void-linux/void-mklive/blob/master/build-x86-images.sh.in
-BASE_PKGS='dialog cryptsetup lvm2 mdadm void-docs-browse grub-i386-efi grub-x86_64-efi xtools-minimal'
+BASE_PKGS='dialog cryptsetup lvm2 mdadm void-docs-browse grub-i386-efi grub-x86_64-efi xtools-minimal NetworkManager'
 BASE_SERVICES="sshd NetworkManager acpid wpa_supplicant"
 
 # List of mirrors (see also: ci/set_repository.sh):
